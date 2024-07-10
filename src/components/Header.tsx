@@ -15,7 +15,7 @@ import {
 } from 'react-icons/si'
 import ReactGA from 'react-ga4'
 
-ReactGA.initialize('G-M9Q2K7J9MB')
+ReactGA.initialize(import.meta.env.VITE_GA_MEASUREMENT_ID)
 
 function Header() {
     function githubClick() {
