@@ -1,8 +1,9 @@
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import ReactGA from 'react-ga4'
 ReactGA.initialize("G-M9Q2K7J9MB");
+import {cardType} from "../types.ts";
 
-function Card(props: any) {
+function Card(props: cardType) {
 
   function useAnalyticsEventTracker(){
     ReactGA.send({ hitType: "pageview", page: props.link, title: props.title });
