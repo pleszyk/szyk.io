@@ -39,9 +39,9 @@ function Header() {
       <div
         className="relative italic block bg-blend-overlay bg-black bg-opacity-25 overflow-hidden h-64 rounded-xl bg-[url('assets/header.svg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute p-8 text-gray-100">
-          <h3 className="text-5xl rounded-lg font-medium">Paul Leszyk</h3>
-          <p className="text-lg font-normal ">B.Sc Computer Science</p>
-          <p className="text-xs text-gray-100 mt-1 font-normal">
+          <h3 className="text-5xl rounded-lg font-medium drop-shadow-text">Paul Leszyk</h3>
+          <p className="text-lg font-normal drop-shadow-text">B.Sc Computer Science</p>
+          <p className="text-xs text-gray-100 mt-1 font-normal drop-shadow-text">
             Javascript, Typescript, HTML, CSS, React, <br /> Next.js, TailwindCSS, MongoDB, Node.js
             & AWS
           </p>

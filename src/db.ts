@@ -9,21 +9,23 @@ import expen from "./assets/tracker.jpg";
 import quizr from "./assets/quizr.jpg";
 import feed from "./assets/feedback.jpg";
 import filegirl from "./assets/filegirl.png";
-import travelatio from "./assets/travelatio.png";
+import tripai from "./assets/tripai.png";
+import youbundle from "./assets/youbundle.png";
+import cigartv from "./assets/cigartv.png";
 import { cardType } from "./types";
 
 const db: cardType[] = [
   {
     title: "fileGirl",
-    desc: "Built with React, Node.js, MongoDB & AWS",
+    desc: "Built with React, Redux, Node.js, MongoDB & AWS",
     link: "https://filegirl.io",
     photo: filegirl,
   },
   {
-    title: "travelatio",
-    desc: "Built with React, Typescript, Node.js & deck.gl",
+    title: "travel ai",
+    desc: "Built with React, Redux, Typescript, Node.js & deck.gl",
     link: "http://ec2-54-145-147-200.compute-1.amazonaws.com/",
-    photo: travelatio,
+    photo: tripai,
   },
   {
     title: "Geobox",
@@ -32,16 +34,29 @@ const db: cardType[] = [
     photo: geo,
   },
   {
+    title: "SpotifyNEXT",
+    desc: "Built with Next.js & TaiwindCSS",
+    link: "https://next-spotify-rust.vercel.app/",
+    photo: spot,
+  },
+  {
     title: "WeatherMap",
     desc: "Built with Javascript",
     link: "http://weathermap-app.s3-website-us-east-1.amazonaws.com/",
     photo: map,
   },
   {
-    title: "SpotifyNEXT",
-    desc: "Built with Next.js & TaiwindCSS",
-    link: "https://next-spotify-rust.vercel.app/",
-    photo: spot,
+    title: "Dashboard",
+    desc: "Built with React, Node.js & MongoDB",
+    link: "https://merndashboard.onrender.com",
+    photo: dash,
+    spin: true,
+  },
+  {
+    title: "YouBundle",
+    desc: "Built with Next.js",
+    link: "https://youbundle.com",
+    photo: youbundle,
   },
   {
     title: "Traveler",
@@ -51,17 +66,16 @@ const db: cardType[] = [
     spin: true,
   },
   {
+    title: "Cigar TV",
+    desc: "Built with Next.js, Redux & Typescript",
+    link: "https://cigartv.com/",
+    photo: cigartv,
+  },
+  {
     title: "MernShop",
     desc: "Built with React, Node.js & MongoDB",
     link: "https://mershoptest2.onrender.com",
     photo: mern,
-    spin: true,
-  },
-  {
-    title: "Dashboard",
-    desc: "Built with React, Node.js & MongoDB",
-    link: "https://merndashboard.onrender.com",
-    photo: dash,
     spin: true,
   },
   {

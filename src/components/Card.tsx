@@ -27,10 +27,9 @@ function Card(props: cardType) {
             </span>
 
       <div className="absolute italic font-light text-gray-200 bottom-4 left-3 pr-20">
-        <h3 className="text-2xl font-medium">{props.title}</h3>
-
-        <p className="text-sm">{props.desc}</p>
-        {props.spin && <p className="text-xs">(30s spin-up delay)</p>}
+        <h3 className="text-2xl font-medium drop-shadow-text">{props.title}</h3>
+        <p className="text-sm drop-shadow-text">{props.desc}</p>
+        {props.spin && <p className="text-xs drop-shadow-text">(30s spin-up delay)</p>}
       </div>
     </a>
   )
