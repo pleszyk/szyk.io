@@ -1,6 +1,6 @@
 import { AiFillLinkedin } from 'react-icons/ai'
 import { DiGithubFull } from 'react-icons/di'
-import { FaAws } from 'react-icons/fa'
+import { FaAws, FaDocker, FaPython } from 'react-icons/fa'
 import {
   SiMongodb,
   SiExpress,
@@ -11,7 +11,7 @@ import {
   SiHtml5,
   SiCss3,
   SiNextdotjs,
-  SiTailwindcss,
+  SiTailwindcss, SiGo, SiRedux, SiGit, SiPostgresql, SiGraphql, SiJira,
 } from 'react-icons/si'
 import ReactGA from 'react-ga4'
 
@@ -37,26 +37,36 @@ function Header() {
   return (
     <div className="w-full col-span-2 p-1">
       <div
-        className="relative italic block bg-blend-overlay bg-black bg-opacity-25 overflow-hidden h-64 rounded-lg bg-[url('assets/header.jpg')] bg-cover bg-center bg-no-repeat">
+        className="relative border-gray-600 border-opacity-35 border italic block bg-blend-overlay bg-black bg-opacity-25 overflow-hidden h-72 rounded-lg bg-[url('assets/header.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute p-8 text-gray-100">
           <h3 className="text-5xl rounded-lg font-medium drop-shadow-text">Paul Leszyk</h3>
-          <p className="text-lg font-normal drop-shadow-text">B.Sc Computer Science</p>
+          <p className="text-lg font-normal drop-shadow-text">B.Sc Computer Science, 2022</p>
           <p className="text-xs text-gray-100 mt-1 font-normal drop-shadow-text">
-            Javascript, Typescript, HTML, CSS, React, <br /> Next.js, TailwindCSS, MongoDB, Node.js
-            & AWS
+            JavaScript, TypeScript, Go, Python, React, Redux, Next.js, <br />
+            Node.js (Express.js), HTML, CSS (Tailwind CSS), Git, MongoDB, <br />
+            PostgreSQL, SQL, NoSQL, Docker, AWS, GraphQL, REST API
           </p>
-          <div className="flex text-xl p-1 pt-2">
-            <SiJavascript />
-            <SiTypescript className="ml-2" />
-            <SiNextdotjs className="ml-2" />
-            <SiReact className="ml-2" />
-            <SiNodedotjs className="ml-2" />
-            <SiExpress className="ml-2" />
-            <FaAws className="ml-2" />
-            <SiMongodb className="ml-2" />
-            <SiHtml5 className="ml-2" />
-            <SiCss3 className="ml-2" />
-            <SiTailwindcss className="ml-2" />
+
+          <div className="flex max-w-xs text-xl p-1 pt-2 gap-y-2 flex-wrap">
+              <SiJavascript />
+              <SiTypescript className="ml-2" />
+              <SiGo className="ml-2" />
+              <FaPython className="ml-2" />
+              <SiReact className="ml-2" />
+              <SiRedux className="ml-2" />
+              <SiNextdotjs className="ml-2" />
+              <SiNodedotjs className="ml-2" />
+              <SiExpress className="ml-2" />
+              <SiHtml5 className="ml-2" />
+              <SiCss3 className="ml-2" />
+              <SiTailwindcss />
+              <SiGit className="ml-2" />
+              <SiMongodb className="ml-2" />
+              <SiPostgresql className="ml-2" />
+              <FaDocker className="ml-2" />
+              <FaAws className="ml-2" />
+              <SiGraphql className="ml-2" />
+              <SiJira className="ml-2" />
           </div>
         </div>
         <a
