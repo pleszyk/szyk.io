@@ -37,7 +37,7 @@ function Header() {
   return (
     <div className="w-full col-span-2 p-1">
       <div
-        className="relative italic block bg-blend-overlay bg-black bg-opacity-25 overflow-hidden h-64 rounded-xl bg-[url('assets/header.svg')] bg-cover bg-center bg-no-repeat">
+        className="relative italic block bg-blend-overlay bg-black bg-opacity-25 overflow-hidden h-64 rounded-lg bg-[url('assets/header.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute p-8 text-gray-100">
           <h3 className="text-5xl rounded-lg font-medium drop-shadow-text">Paul Leszyk</h3>
           <p className="text-lg font-normal drop-shadow-text">B.Sc Computer Science</p>
@@ -45,7 +45,7 @@ function Header() {
             Javascript, Typescript, HTML, CSS, React, <br /> Next.js, TailwindCSS, MongoDB, Node.js
             & AWS
           </p>
-          <div className="flex text-[#062a4e] text-xl p-1 pt-2">
+          <div className="flex text-xl p-1 pt-2">
             <SiJavascript />
             <SiTypescript className="ml-2" />
             <SiNextdotjs className="ml-2" />

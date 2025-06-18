@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e7ecef;
+  background-color: #131313;
 } 
 
 body::-webkit-scrollbar {
@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #e7ecef; /* color of the tracking area */
+  background: #131313; /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {

@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="max-w-5xl mx-auto place-items-center mb-3 grid gap-1 grid-cols-2 px-1">
+      <div className="max-w-5xl mx-auto place-items-center mb-3 grid grid-cols-2 px-1">
         <Header />
         {db.map((card: cardType) => (
-          <div className="w-full p-1 transition xl:hover:scale-[1.02]" key={card.title}>
+          <div className="w-full p-1 transition duration-300 xl:hover:scale-[1.02]" key={card.title}>
             <Card {...card} />
           </div>
         ))}

@@ -19,7 +19,7 @@ function Card(props: cardType) {
       href={props.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="relative block bg-blend-overlay bg-black bg-opacity-25 w-full h-64 overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+      className="relative block bg-blend-overlay bg-black bg-opacity-25 w-full h-64 overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${props.photo})` }}
     >
             <span className="absolute right-4 top-4 z-10 items-center rounded-lg bg-[#e7ecef] p-1.5 text-s text-black">

@@ -1,4 +1,4 @@
-import Logo from '../assets/sailboat.svg'
+import Logo from '../assets/logo.png'
 
 function Nav() {
   return (
@@ -6,12 +6,12 @@ function Nav() {
       aria-label="Site Nav"
       className="mx-auto flex max-w-7xl items-center justify-between p-4"
     >
-      <div className="inline-flex h-12 items-center justify-center">
+      <div className="inline-flex h-12 w-12 items-center justify-center">
         <span className="sr-only">Logo</span>
         <img className="w-14" src={Logo} alt="logo" />
       </div>
 
-      <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
+      <ul className="flex items-center gap-2 text-sm font-medium text-gray-300">
         <li>
           <div className="rounded-lg cursor-pointer px-3 py-0.5">
             Home
