@@ -74,7 +74,7 @@ function Header() {
           href="https://github.com/pleszyk"
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute transition xl:hover:scale-[1.05] left-4 bottom-4 items-center rounded-lg bg-[#e7ecef] p-1.5 text-2xl text-black"
+          className="absolute transition xl:hover:scale-[1.05] duration-300 left-4 bottom-4 items-center rounded-lg bg-[#e7ecef] p-1.5 text-2xl text-black"
         >
           <DiGithubFull />
         </a>
@@ -83,7 +83,7 @@ function Header() {
           href="https://www.linkedin.com/in/szyk/"
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute transition xl:hover:scale-[1.05] left-16 bottom-4 items-center rounded-lg bg-[#e7ecef] p-1.5 text-2xl text-black"
+          className="absolute transition xl:hover:scale-[1.05] duration-300 left-16 bottom-4 items-center rounded-lg bg-[#e7ecef] p-1.5 text-2xl text-black"
         >
           <AiFillLinkedin />
         </a>
