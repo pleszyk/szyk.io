@@ -12,6 +12,7 @@ import filegirl from "./assets/filegirl.png";
 import tripai from "./assets/tripai.png";
 import youbundle from "./assets/youbundle.png";
 import cigartv from "./assets/cigartv.png";
+import thinkblue from "./assets/thinkblue.png";
 import { cardType } from "./types";
 
 const db: cardType[] = [
@@ -21,6 +22,7 @@ const db: cardType[] = [
     link: "https://filegirl.io",
     photo: filegirl,
   },
+
   {
     title: "travel ai",
     desc: "Built with React, Redux, Typescript, Node.js & deck.gl",
@@ -32,6 +34,12 @@ const db: cardType[] = [
     desc: "Built with React, Mapbox & Three.js",
     link: "http://geobox-app.s3-website-us-east-1.amazonaws.com/",
     photo: geo,
+  },
+  {
+    title: "ThinkBlue",
+    desc: "Built with Next.js, Typescript, & Strapi CMS",
+    link: "https://thinkbluex.com/",
+    photo: thinkblue,
   },
   {
     title: "SpotifyNEXT",
